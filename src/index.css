@@ -1,0 +1,66 @@
+html { 
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  background: url(https://4.bp.blogspot.com/-U7iE-itHbs0/WRusllF1YBI/AAAAAAAAATQ/OFqUX2Pf7NQe72TdkATAjKlg14opi5NwQCLcB/s1600/comparison-between-microprocessor-and-microcontroller.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: crimson;
+  box-shadow: none;
+}
+.btn {
+  background:darkblue;
+	color: white;
+  width: 95%;
+  margin-left: 15px;
+	border-radius: 8px;
+}
+#container-login {
+  width: 465px;
+  border-radius: 10px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 90px auto;
+  padding: 30px 20px;
+}
+
+#container-project {
+  width: 450px;
+  border-radius: 10px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 90px auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  margin-top: -8px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  }
